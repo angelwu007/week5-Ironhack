@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+  <style>
+  
+  div{
+      margin:20px 0;
+  }
+  
+  button{
+      background-color:aqua;
+  }
+  
+  </style>
+
+</head>
+<body>
+    <h1>Axios Intro</h1>
+
+    <button id="all-countries-button">Click to view all the countries</button> <br>
+
+    <div>
+    <label for="">search a country</label>
+    <input type="text" id ="countries-input"> 
+    <button id='country-btn'>search</button>
+    </div>
+
+    <div>
+    <label for="">search a country by capital</label>
+    <input type="text" id ="country-by-capital"> 
+    <button id='capital-btn'>search</button>
+    </div>
+
+
+    <div id="list">
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
